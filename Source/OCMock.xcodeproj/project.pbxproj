@@ -662,7 +662,7 @@
 			name = OCMockTests;
 			productName = OCMockTests;
 			productReference = 030EF0C014632FD000B04273 /* OCMockTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		030EF0DB14632FF700B04273 /* OCMockLib */ = {
 			isa = PBXNativeTarget;
@@ -697,7 +697,7 @@
 			name = OCMockLibTests;
 			productName = OCMockLibTests;
 			productReference = D31108AD1828DB8700737925 /* OCMockLibTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -705,6 +705,7 @@
 		030EF09E14632FD000B04273 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Mulle Kybernetik";
 				TargetAttributes = {
